@@ -1,0 +1,63 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  body {
+    background-image: url("barn.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .container {
+    background-image: url('path/to/your/barn.jpg');
+    /* Additional styles for your container */
+  }
+  #example1 {
+    background: url(barn.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  #example2 {
+    background: url(barn.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 100px;
+  }
+
+img {
+    border-radius: 20%;
+}
